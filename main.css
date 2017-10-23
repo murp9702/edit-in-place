@@ -1,0 +1,14 @@
+* {
+  font-family: sans-serif;
+  position: relative;
+}
+
+.noInput  {
+  font-size: 12px;
+
+}
+
+input  {
+  font-size: 12px;
+  left: 2px;
+}
