@@ -1,14 +1,40 @@
 * {
   font-family: sans-serif;
   position: relative;
+  display: inline-block;
 }
 
 .noInput  {
+  height: 50px;
+  width: 75px;
   font-size: 12px;
+  top: 16px;
 
 }
 
 input  {
+  height: 50px;
+  width: 75px;
   font-size: 12px;
-  left: 2px;
+  background-color: cornflowerblue;
+  appearance: none;
+  box-shadow: none;
+  border-style: none;
+  text-align: center;
+}
+
+input:hover {
+  outline: none;
+}
+
+.main {
+  width: 200px;
+  height: 400px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.firstParagraph {
+  border-bottom: 2px solid black;
 }
